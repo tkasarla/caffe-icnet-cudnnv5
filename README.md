@@ -17,13 +17,13 @@ The code has been tested successfully on Ubuntu 14.04 and 12.04 with CUDA 7.0.
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/hszhao/PSPNet.git
+   git clone https://github.com/tkasarla/caffe-icnet-cudnnv5.git
    ```
 
 2. Build Caffe and matcaffe:
 
    ```shell
-   cd $PSPNET_ROOT
+   cd $CAFFE_ROOT
    cp Makefile.config.example Makefile.config
    vim Makefile.config
    make -j8 && make matcaffe
